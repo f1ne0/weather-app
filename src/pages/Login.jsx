@@ -44,14 +44,16 @@ export default function Login() {
         <input
           type="email"
           placeholder="Email"
-          value={email}
+          // value={email}
+          value={"eve.holt@reqres.in"}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
         <input
           type="password"
           placeholder="Пароль"
-          value={password}
+          // value={password}
+          value={"cityslicka"}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
